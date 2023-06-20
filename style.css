@@ -1,0 +1,1169 @@
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* MAIN CONTANIER */
+
+.banner-container{
+    width: 100%;
+    max-width: 1664px;
+    height: 100vh;
+    max-height: 750px;
+    margin: 0 auto;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+/* MAIN NAV DIV */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1664px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px 20px 0px 20px; 
+    z-index: 1;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    position: fixed;
+}
+.anc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1664px;
+    margin: 0 auto;
+}
+/* NAV COMPANY LOGO  */
+#logo a img{
+    width: 220px;
+}
+/* NAV ANCHORS LINK */
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+nav ul li a.active{
+    color: rgb(176, 176, 176);
+}
+nav ul li a:hover{
+    color: rgb(176, 176, 176);
+}
+/* BANNER DESC + IMG */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 700px;
+}
+.banner-desc
+{
+    width: 50%;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-desc h1{
+    font-size: 45px;
+    color: white;
+    line-height: 60px;
+}
+.banner-desc p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+.banner-img img{
+    width: 100%; 
+}
+button{
+    margin-top: 30px;
+    padding: 15px 40px 15px 40px;
+    font-size: 17px;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, rgb(255, 68, 0),rgb(255, 139, 71));
+}
+button:hover {
+    background: linear-gradient(to bottom, rgb(255, 68, 0),rgb(255, 139, 71));
+}
+/* COMPANIES LOGOS 5 */
+.companies-logos .container{
+display: flex;
+justify-content: space-between;
+padding: 50px;
+width: 100%;
+max-width: 1664px;
+margin: 0 auto;
+box-sizing: border-box;
+flex-wrap: wrap;
+box-shadow: 0px 10px 20px rgb(238, 238, 238);
+}
+.companies-logos .container .logo-img{
+    width: 20%;
+}
+.companies-logos .container .logo-img img{
+    width: 100%;
+    object-fit: cover;
+}
+/* MAIN DIV ABOUT */
+.containerabout{
+    width: 100%;
+    max-width: 1664px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 20px rgb(238, 238, 238);
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 50px auto 0px auto;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+/* left SIDE DIV */
+.about .side{
+    width: 40%;
+}
+/* ABOUT HEADING */
+.about .side .abus{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(1, 22, 163);
+    margin-bottom: 20px;
+}
+/* ABOUT TEXT BOLD */
+.side .about-h1{
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+/* ABOUT PARAGRAPH */
+.side .about-desc{
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(111, 111, 111);
+}
+/* ABOUT COUNTER DIV */
+.side .aboutcounter{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+.c , .p{
+    width: 50%;
+}
+.clients{
+    color: rgb(215, 60, 4);
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+.cpara{
+    font-weight: bolder;
+}
+.projects{
+    color: rgb(60, 0, 128);
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 6px;
+}
+.ppara{
+    font-weight: bolder;
+}
+/* ABOUT RIGHT DIV  4 DIVS*/
+.about .fourdivs{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+}
+.fourdivs .f1 {
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 80%;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    margin: 0 auto 30px auto;
+    padding: 30px 30px 30px 50px;
+}
+.fourdivs .f1:hover {
+    background: linear-gradient(to left , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.fourdivs .f1 img{
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.fourdivs .f1 h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.f1 p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(211, 211, 211);
+}
+/* 2ND DIV */
+.fourdivs .f2 {
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 80%;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    margin: 0 auto;
+    padding: 30px 30px 30px 50px;
+}
+.fourdivs .f2:hover {
+    background: linear-gradient(to left , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.fourdivs .f2 img{
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.fourdivs .f2 h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.f2 p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(211, 211, 211);
+}
+.left2{
+    margin-right: -70px;
+}
+/* 3rd DIV */
+.right2{
+    margin-top: -80px;
+    margin-right: -50px;
+}
+.fourdivs .f3 {
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 80%;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    margin: 0 auto 30px auto;
+    padding: 30px 30px 30px 50px;
+}
+.fourdivs .f3:hover {
+    background: linear-gradient(to left , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.fourdivs .f3 img{
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.fourdivs .f3 h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.f3 p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(211, 211, 211);
+}
+/* 4th DIV */
+.fourdivs .f4 {
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 80%;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    margin: 0 auto;
+    padding: 30px 30px 30px 50px;
+}
+.fourdivs .f4:hover {
+    background: linear-gradient(to left , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.fourdivs .f4 img{
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.fourdivs .f4 h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.f4 p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(211, 211, 211);
+}
+/* PROGRESSBARS */
+
+ .pshadow{
+    width: 100%;
+    max-width: 1664px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 20px rgb(238, 238, 238);
+}
+.progress{
+    width: 90%;
+    max-width: 1664px;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.progress .leftgroup{
+    width: 50%;
+}
+.progress .leftgroup img{
+    width: 100%;
+}
+.progress .rightgroup{
+    width: 50%;
+    padding-left: 40px;
+}
+.rightgroup .groupdesc .abus{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(1, 22, 163);
+    margin-bottom: 20px;
+    padding: 50px 0px 0px 0px;
+}
+/* ABOUT TEXT BOLD */
+.groupdesc .about-h1{
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+/* ABOUT PARAGRAPH */
+.groupdesc .about-desc{
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(111, 111, 111);
+}
+/* pb */
+.progressbar{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: rgb(111, 111, 111);
+}
+.prog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progressbar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+.progressbar .bar .html{
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+.progressbar1{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: rgb(111, 111, 111);
+}
+.progressbar1 .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+.progressbar1 .bar span{
+    height: 100%;
+    position: absolute;
+    background-color: #02c630;
+    border-radius: 25px;
+}
+.progressbar1 .bar .html{
+    width: 80%;
+}
+.progressbar2{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: rgb(111, 111, 111);
+}
+.progressbar2 .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+.progressbar2 .bar span{
+    height: 100%;
+    position: absolute;
+    background-color: #0243c6;
+    border-radius: 25px;
+}
+.progressbar2 .bar .html{
+    width: 95%;
+}
+.progressbar3{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: rgb(111, 111, 111);
+}
+.progressbar3 .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+.progressbar3 .bar span{
+    height: 100%;
+    position: absolute;
+    background-color: #b500bc;
+    border-radius: 25px;
+}
+.progressbar3 .bar .html{
+    width: 78%;
+}
+/* services */
+
+.services{
+    width: 90%;
+    max-width: 1664px;
+    margin: 0 auto;
+    padding-top:80px ;
+}
+.services .serviceshead .ser{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(1, 22, 163);
+    margin-bottom: 20px;
+    padding: 50px 0px 0px 0px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sdivs {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 30px;
+}
+.card{
+    width: 33%;
+    box-sizing: border-box;
+    height: 370px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    perspective: 1900px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card:hover .content{
+    transform: rotateY(180deg);
+}
+.s1{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 20px;
+    backface-visibility: hidden;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    padding: 150px 50px 0px 50px;
+    background-color: #eaeaea;
+    color: #0243c6;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+}
+.card .content .s1{
+    padding: 30px;
+}
+.sdivs .s1 img{
+    width: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.sdivs .s1 h2{
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.sdivs .s1 p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgb(211, 211, 211);
+}
+
+/* teamDIV */
+.teamdiv{
+    width: 100%;
+    max-width: 1664px;
+    margin: 0 auto;
+}
+.teamname{
+    text-align: center;
+    padding-top: 30PX;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(1, 22, 163);
+}
+.teamheading{
+    text-align: center;
+}
+/* MAIN DIV */
+.main{
+    width: 100%;
+    max-width: 1664px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.teamimg{
+    width: 33%;
+}
+.img1{
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.img1 img{
+    width:100%;
+    transition: transform 0.5s;
+}
+.img1 img:hover{
+    transform: scale(1.2);
+}
+.text{
+    margin-top: 40px;
+    text-align: center;
+}
+.text h2{
+    margin-bottom: 20px;
+}
+#scrollbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    padding: 5px 8px 5px 8px;
+    transition: transform 0.5s;
+}
+#scrollbutton:hover{
+    background: linear-gradient(to left , rgb(12, 12, 133) ,rgb(30, 103, 182));
+    transform: scale(1.4);
+}
+.contactform{
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    max-width: 1664px;
+    height: 700px;
+}
+.innercontainer{
+    box-sizing: border-box;
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.sidecontact{
+    box-sizing: border-box;
+    padding: 30px 20px 50px 40px;
+    width: 33%;
+    height: 580px;
+    border-radius: 12px;
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.lettalk{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: rgb(222, 222, 222);
+}
+.speak{
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+}
+.cologo{
+    color: white;
+}
+.icons{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons .slogo {
+    background-color: #ececec;
+    width: 60px;
+    height: 50px;
+    border-radius: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.em{
+    margin-left: 20px;
+    width: 100%;
+}
+.email
+{
+    font-weight: bold;
+    padding: 5px 5px 10px 0px;
+}
+form{
+    width: 60%;
+    height: 580px;
+}
+#gettouch{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: rgb(16, 62, 148);
+}
+#confill{
+    font-size: 36px;
+}
+.inp{
+    margin-top: 30px;
+}
+input{
+    border: none;
+    padding: 20px 10px;
+    width: 48%;
+    box-sizing: border-box;
+    outline: none;
+    border-radius:10px;
+    background: white;
+}
+.inp1{
+    margin: 20px 0px 10px 20px;
+}
+textarea{
+    margin: 20px 0;
+    width: 99%;
+    background: white;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    max-width: 99%;
+    min-width: 99%;
+    height: 150px;
+}
+.submit{
+    background: linear-gradient(to right , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.submit:hover{
+    background: linear-gradient(to left , rgb(12, 12, 133) ,rgb(30, 103, 182));
+}
+.footer{
+    width: 100%;
+}
+.para{
+    width: 70%;
+    max-width: 1664px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px; 
+    color: rgb(16, 23, 53);
+    display: flex;
+    justify-content: space-between;
+}
+.para .fot{
+    width: 100%;
+}
+.para .fot img{
+    width: 20px;
+}
+.fotnav{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.fotnav .footul li{
+    display: inline-block;
+}
+.fotnav .footul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+@media (max-width:1200px){
+    nav ul li a{
+        margin-right: 10px;
+    }
+    .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    }
+    .banner-desc
+    {
+        width: 55%;
+    }
+    .banner-img{
+        width: 45%;
+    }
+    .banner-desc h1{
+        font-size: 40px;
+    }
+    /* ABOUT RIGHT DIV  4 DIVS*/
+    .fourdivs .f1 {
+        width: 70%;
+        padding: 10px 10px 10px 20px;
+    }
+    /* 2ND DIV */
+    .fourdivs .f2 {
+        width: 70%;
+        padding: 10px 10px 10px 20px;
+    }
+    /* 3rd DIV */
+    .fourdivs .f3 {
+        width: 70%;
+        padding: 10px 10px 10px 20px;
+    }
+    /* 4th DIV */
+    .fourdivs .f4 {
+        width: 70%;
+        padding: 10px 10px 10px 20px;
+    }   
+    .contactform{
+        height: 700px;
+    }
+    .sidecontact{
+        padding: 20px 20px 50px 40px;
+        width: 35%;
+    }
+    .speak{
+        font-size: 38px;
+    }
+    form{
+        width: 60%;
+        height: 580px;
+    }
+    .inp{
+        margin-top: 30px;
+    }
+    input{
+        width: 45%;
+    }
+    .inp1{
+        margin: 20px 0px 10px 20px;
+    }
+    textarea{
+        width: 94%;
+        min-width: 94%;
+        max-width: 94%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .para{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:1024px){
+    /* NAV ANCHORS LINK */
+    nav ul li{
+        display: none;
+    }
+    /* BANNER DESC + IMG */
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto ;
+        height: 600px;
+    }
+    .banner-desc
+    {
+        width: 90%;
+    }
+    .banner-img{
+        display: none;
+    }
+    .about{
+        display: inline;
+        margin: 10px auto 0px auto;
+        padding-top: 50px; 
+        padding-bottom: 50px;
+    }
+    .about .side{
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ABOUT TEXT BOLD */
+    .side .about-h1{
+        font-size: 44px;
+    }
+    /* ABOUT COUNTER DIV */
+    .side .aboutcounter{
+        width: 60%;
+    }
+    .clients{
+        font-size: 60px;
+    }
+    .projects{
+        font-size: 60px;
+    }
+    .about .fourdivs{
+        width: 90%;
+        margin-top: 100px;
+        padding-bottom:70px ;
+    }
+    .fourdivs .f1 {
+        margin: 0 auto 10px auto;
+    }
+    /* 2ND DIV */
+    .fourdivs .f2 {
+        margin: 0 auto 10px auto;   
+    }
+    .fourdivs .f3 {
+        margin: 0 auto 10px auto;   
+    }
+    .fourdivs .f4 {
+        margin: 0 auto 10px auto;   
+    }
+        /* PROGRESSBARS */
+    .progress{
+        display: inline;       
+    }
+    .progress .leftgroup{
+        display: none;
+    }
+    .progress .rightgroup{
+        width: 90%;
+        padding-bottom: 50px;
+    }
+    /* services */
+    .services .serviceshead .ser{
+        text-align: center;
+    }
+    .head{
+        display: inline;
+        font-size: 20px;
+        text-align: center;
+    }
+.card{
+    width: 49%;
+    box-sizing: border-box;
+    height: 370px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    perspective: 700px;
+}  
+    .contactform{
+        background-color: rgb(240, 240, 240);
+        margin: 0 auto;
+        height: 1180px;
+    }
+    .innercontainer{
+        display: inline;
+    }
+    .sidecontact{
+        padding: 20px 20px 30px 60px;
+        width: 80%;
+        height: 550px;
+        margin: 0 auto;
+    }
+    form{
+        width: 80%;
+        height: 580px;
+        padding-top: 70px;
+        margin: 0 auto;
+    }
+    input{
+            width: 48%;
+    }
+    textarea{
+        margin: 20px 0 10px 0;
+        max-width: 99%;
+        min-width:99%;
+        border-radius: 10px;
+        height: 120px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .para{
+        width: 100%;
+        display:inline-block;
+    }
+    .para .fot{
+        width: 100%;
+        text-align: center;
+    }
+    .para .fot img{
+        width: 20px;
+    }
+    .fotnav{
+        display: inline-block;
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .fotnav .footul li{
+        display: inline-block;
+    }
+    .fotnav .footul li a{
+        text-decoration: none;
+        padding: 10px;
+    }
+}
+@media (max-width:768px){
+    .banner-desc h1{
+        font-size: 32px;
+    }
+    .card{
+        width: 100%;
+        box-sizing: border-box;
+        height: 370px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        perspective: 700px;
+    }  
+    .companies-logos .container{
+        flex-direction: column;
+    }
+    .companies-logos .container{
+        justify-content: space-around;
+    }
+    .companies-logos .container .logo-img{
+        margin: 0 auto;
+        width: 40%;
+    }
+    /* ABOUT COUNTER DIV */
+    .side .aboutcounter{
+        display: inline-block;
+        width: 100%;
+    }
+    .c , .p{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .about .side{
+        margin-top: 70px;
+    }
+    .about .about-h1{
+        font-size: 36px;
+        font-weight: bolder;
+    }
+    .about .fourdivs{
+        width: 100%;
+        margin-top: 0px;
+        padding-bottom:70px ;
+        display: inline-block;
+    }
+    .left2{
+        margin: 0px;
+    }
+    .right2{
+        margin:0px;
+    }
+    .groupdesc .about-h1{
+        font-size: 34px;
+    }
+    .grouppbar{
+        width: 90%;
+    }
+    /* services */
+    .services .head .shead{
+        font-size: 32px;
+    }
+    .head{
+        display: inline;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .sdivs .s1 {
+        width: 100%;
+        margin: 10px;
+    }
+    .sdivs .s2 {
+        width: 100%;
+        margin: 10px;
+    }
+    .sdivs .s3 {
+        width: 100%;
+        margin: 10px;
+    }
+    .sdivs .s4 {
+        width: 100%;
+        margin: 10px;
+    }
+    .sdivs .s5 {
+        width: 100%;
+        margin: 10px;
+    }
+    .sdivs .s6 {
+        width: 100%;
+        margin: 10px;
+    }
+    .contactform{
+        height: 1300px;
+    }
+
+    .sidecontact{
+        padding: 20px 20px 0px 40px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .speak{
+        font-size: 32px;
+    }
+    form{
+        width: 90%;
+    }
+    
+    input{
+        width: 100%;
+    }
+    .inp1{
+        margin: 30px 0 30px 0;
+    }
+    textarea{
+        margin: 0px;
+        min-width: 100%;
+        height: 100px;
+    }
+    .main{
+        display: inline-block;
+    }
+    .teamimg{
+        margin: 0 auto;
+        width: 70%;
+        padding-bottom: 50px;
+    }
+    .img1{
+        /* background-color: rebeccapurple; */
+        width: 70%;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    .img1 img{
+        width:100%;
+        /* border-radius: 100%; */
+        transition: transform 0.5s;
+    }
+    .img1 img:hover{
+        transform: scale(1.2);
+    }
+    .text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .text h2{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:600px){
+    .companies-logos .container .logo-img{
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
